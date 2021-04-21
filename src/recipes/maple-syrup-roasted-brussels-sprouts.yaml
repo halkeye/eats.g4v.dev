@@ -1,0 +1,41 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/IMG_7578/1e0e309912c0c8f13b5f50ab4d2b6c34.jpg
+course: Main Dish
+cuisine: American
+title: Maple Syrup Roasted Brussels Sprouts
+info: ''
+directions: >-
+  Preheat oven to 400 degrees F.
+
+  rim the stems of the sprouts. Remove any outer leaves that are wilted. Cut the
+  sprouts in half.
+
+  Add the Brussels sprouts, oil, salt, and pepper to a large bowl. Toss to fully
+  coat the sprouts.
+
+  Spread the sprouts onto a large baking sheet in a single layer.
+
+  Roast for 15 minutes. Stir the sprouts, trying to flip over as many as you
+  can.
+
+  Roast for 10 minutes.
+
+  Drizzle the maple syrup over the sprouts and stir to coat. Roast for 8-10 more
+  minutes.
+source: 'https://www.thewholesomedish.com/maple-syrup-roasted-brussels-sprouts/'
+prep_time: 15
+cook_time: 35
+servings: 6
+image: ./maple-syrup-roasted-brussels-sprouts.jpg
+ingredients:
+  - items:
+      - item: Brussels sprouts
+        amt: 3/2 lbs.
+      - item: olive oil
+        amt: 3 tablespoons
+      - item: salt
+        amt: 1/2 teaspoon
+      - item: ¼ tsp. ground black pepper
+        amt: 0 null
+      - item: maple syrup
+        amt: 3 tablespoons

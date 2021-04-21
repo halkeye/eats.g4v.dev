@@ -1,0 +1,52 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/Instant-Pot-Chickpea-Curry-13/bb63d994ba658eddfcb4a25f943a37e8.jpg
+course: Main Dish
+cuisine: Indian
+title: Instant Pot Chickpea Curry
+info: >-
+
+  This Instant Pot Chickpea Curry with coconut milk is a healthy vegan option
+  that comes together in one pot for easy meal prep. It's an easy dinner made
+  using pantry staples!
+directions: |2
+      Add everything besides red pepper, spinach and cilantro to Instant Pot in order listed above. Place lid on Instant Pot and make sure valve is set to seal.
+      Press the pressure cook button and set to high, then cook for 2 minutes. Instant Pot will take about 10 to 15 minutes to come to pressure then pressure cook the 2 minutes. Meanwhile, cook rice, water and butter in a rice cooker while chickpeas are cooking.
+      Do a quick release of the pressure by flicking the switch at the top with a spoon, then open lid when pressure gauge has dropped and lid opens easily. Stir in red pepper and spinach.
+      Serve over rice and garnish with cilantro. Serve and enjoy!
+source: 'https://eatinginstantly.com/instant-pot-chickpea-curry/'
+prep_time: 10
+cook_time: 15
+servings: 4
+image: ./instant-pot-chickpea-curry.jpg
+ingredients:
+  - items:
+      - item: coconut oil
+        amt: 1 tbsp
+      - item: 'onions, diced'
+        amt: 2 yellow
+      - item: 'garlic, minced'
+        amt: 4 cloves
+      - item: 'fresh ginger, minced'
+        amt: 1 tbsp
+      - item: 'packages grape/cherry tomatoes, sliced'
+        amt: 2 (255g)
+      - item: curry powder
+        amt: 1 tbsp
+      - item: turmeric
+        amt: 2 tsp
+      - item: cumin
+        amt: 1/2 tsp
+      - item: salt
+        amt: 1/2 tsp
+      - item: can full-fat coconut milk
+        amt: 1 (400mL)
+      - item: vegetable broth
+        amt: 1 cup
+      - item: 'chickpeas, rinsed and drained'
+        amt: 2 cans
+      - item: 'pepper, diced'
+        amt: 1 red
+      - item: 'spinach, chopped'
+        amt: 2 cups
+      - item: 'Cilantro, to serve'
+        amt: 0 null

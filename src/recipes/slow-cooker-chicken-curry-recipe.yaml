@@ -1,0 +1,46 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/Slow-Cooker-Chicken-Curry-1/115a3d7ae59a518189abcbd10523bfbe.jpg
+tags:
+  - Slow Cooker
+course: Main Dish
+cuisine: American
+title: Slow Cooker Chicken Curry Recipe
+info: >-
+  Cook fresh or freeze to cook later. Top with fresh cilantro and serve with
+  pita bread, naan, or rice.
+directions: >-
+  In a bowl, combine tomato sauce, garlic, honey, and seasonings. Set aside.
+
+  Add the rest of the ingredients to your slow cooker. Cover with the tomato
+  sauce/seasoning mixture.
+
+  Cook on low 8 hours
+source: 'https://thefamilyfreezer.com/2013/03/11/slow-cooker-chicken-curry-recipe/'
+prep_time: 0
+cook_time: 0
+servings: 6
+image: ./slow-cooker-chicken-curry-recipe.jpg
+ingredients:
+  - items:
+      - item: 'boneless, skinless chicken breasts, cut into bite-size pieces'
+        amt: 2 pounds
+      - item: can of tomato paste
+        amt: 6 oz
+      - item: can of coconut milk
+        amt: 13.5 oz
+      - item: 'onion, chopped (about one cup)'
+        amt: 1 small
+      - item: of frozen peas
+        amt: 2 cups
+      - item: can of tomato sauce (about 1 3/4 cup)
+        amt: 14.5 oz
+      - item: 'cloves of garlic, minced'
+        amt: 2 large
+      - item: honey
+        amt: 3 tablespoons
+      - item: curry powder
+        amt: 2 tablespoons
+      - item: salt
+        amt: 1 teaspoon
+      - item: crushed red pepper
+        amt: 1 teaspoon

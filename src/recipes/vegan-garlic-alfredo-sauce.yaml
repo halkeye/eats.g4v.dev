@@ -1,0 +1,55 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/alfredosauce3/bf8904924e175291605839db6a73af96.jpg
+course: Breakfast
+cuisine: American
+title: Vegan Garlic Alfredo Sauce
+info: ''
+directions: >-
+  Add the onion and ONLY 1 cup of the broth to a large pan over medium to
+  medium-high heat.
+
+  Cook for about 8 minutes until the onion is very tender. (Add a tiny bit more
+  broth if it is cooking too fast or turn the heat down, so the onions don't
+  burn) 
+
+  After 8 minutes, add the garlic and cook a couple of minutes more, stirring
+  often. All of the broth should have evaporated by now. If not, keep letting it
+  cook until the broth is GONE. You don't want any more liquid once it's done
+  cooking, so the end result is thick and creamy.
+
+  Add the cooked veggies (the onion and garlic) to a blender. 
+
+  Start out by adding JUST 1/2 cup more of the remaining broth and add the
+  remaining ingredients (salt, pepper, cashews, starting with JUST 1 tablespoon
+  lemon juice, nutritional yeast-starting with just 2 tablespoons yeast). 
+
+  Blend on high for a couple of minutes until very creamy and smooth. Add any
+  more broth to reach desired consistency, if necessary. I did not. If you don't
+  add more broth, you would likely not need any more yeast. 
+
+  Taste and add any more salt & pepper or lemon, if desired.
+
+  Serve over preferred pasta.
+source: 'https://thevegan8.com/vegan-garlic-alfredo-sauce'
+prep_time: 10
+cook_time: 10
+servings: 2
+image: ./vegan-garlic-alfredo-sauce.jpg
+ingredients:
+  - items:
+      - item: 'white onion, diced (200g)'
+        amt: 1 medium
+      - item: 'low sodium vegetable broth, divided into 1 cups'
+        amt: 2 cups
+      - item: salt
+        amt: 1/2 teaspoon
+      - item: ground black pepper
+        amt: 1/4 teaspoon
+      - item: (15g) minced garlic cloves
+        amt: 4 x-large
+      - item: cup (75g) raw unsalted cashews
+        amt: 1/2 heaping
+      - item: lemon juice
+        amt: 1 tablespoons
+      - item: nutritional yeast
+        amt: 2 tablespoons

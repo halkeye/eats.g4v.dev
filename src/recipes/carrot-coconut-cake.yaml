@@ -1,0 +1,54 @@
+photo_thumbnail: null
+course: Dessert
+cuisine: Dessert
+title: Carrot Coconut Cake
+info: >-
+  The coconut flavor in this cake lends a little extra to the traditional carrot
+  cake. This is the perfect-sized cake for a romantic dinner or even when you
+  have a stop-by guest wanting a little tea and gossip. For some extra zip,
+  toast some coconut flakes and use them to garnish the top of the cake after
+  frosting.
+directions: >-
+  In a medium bowl, whisk together oil, sugar, egg, cinnamon, nutmeg, vanilla,
+  carrot, coconut flakes, flour and baking powder. Do not overmix. Fold in
+  pecans. Pour batter into a greased 6" cake pan.
+
+  Pour water into the Instant Pot. Set trivet in pot. Place cake pan on top of
+  the trivet. Lock lid.
+
+  Press the manual button and adjust time to 20 minutes. When timer beeps, let
+  pressure release naturally for 5 minutes. Quick-release any additional
+  pressure until float valve drops and then unlock lid.
+
+  Remove cake pan from the pot and transfer to a rack until cool. Flip cake onto
+  a service platter.
+source: 'https://www.amazn.com/Love-Instant-Pot%C2%AE-Recipe-Book/dp/1507202288'
+prep_time: 10
+cook_time: 20
+servings: 6
+ingredients:
+  - items:
+      - item: 'coconut oil, melted'
+        amt: 1/4 cup
+      - item: sugar
+        amt: 1/2 cup
+      - item: egg
+        amt: 1 large
+      - item: ground cinnamon
+        amt: 1/2 teaspoon
+      - item: Pinch of ground nutmeg
+        amt: 0 null
+      - item: vanilla extrat
+        amt: 1/2 teaspoon
+      - item: 'peeled, grated carrot'
+        amt: 1/4 cup
+      - item: unsweetened coconut flakes
+        amt: 1/4 cup
+      - item: all-purpose flour
+        amt: 1/2 cup
+      - item: baking powder
+        amt: 1/2 teaspoon
+      - item: chopped peacans
+        amt: 1/4 cup
+      - item: water
+        amt: 1 cup

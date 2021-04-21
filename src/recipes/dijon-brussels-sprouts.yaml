@@ -1,0 +1,43 @@
+photo_thumbnail: null
+tags:
+  - brussels
+  - brussels sprouts
+  - dijon brussels
+  - dijon brussels sprouts
+  - maple dijon brussels
+  - maple dijon brussels sprouts
+  - oven roasted brussels sprouts
+course: Side Dish
+cuisine: American
+title: Dijon Brussels Sprouts
+info: >-
+  Dijon Brussels sprouts are a perfect vegan holiday side featuring oven roasted
+  brussels sprouts, olive oil, whole grain mustard, and maple syrup. 
+directions: >-
+  Preheat oven to 400 degrees. Remove the bottoms of the brussels sprouts then
+  cut in half and add to a strainer. Wash the sprouts then add olive oil spray
+  shaking the sprouts around to ensure they're coated evenly.
+
+  Spread the sprouts across a baking sheet lined with parchment paper. Roast for
+  25 minutes or until the bottoms are browned and tops are slightly brown.
+
+  Add Brussels to a mixing bowl with maple syrup and whole grain mustard. Stir
+  with a spatula to combine and add salt to taste if necessary. Serve
+  immediately.
+source: 'https://hellyesitsvegan.com/recipes/dijon-brussels-sprouts/'
+prep_time: 5
+cook_time: 25
+servings: 4
+image: ./dijon-brussels-sprouts.webp
+ingredients:
+  - items:
+      - item: brussels sprouts
+        amt: 2 lbs
+      - item: extra virgin olive oil spray
+        amt: 0 null
+      - item: maple syrup
+        amt: 2 Tbsp
+      - item: whole grain mustard
+        amt: 2 Tbsp
+      - item: sea salt to taste
+        amt: 0 null

@@ -1,0 +1,43 @@
+photo_thumbnail: null
+course: Main Dish
+cuisine: American
+title: GREEK-STYLE LEMON CHICKEN
+info: ''
+directions: >-
+  Place raw chicken in a bowl.
+
+  Add all ingredients to the bowl.
+
+  Mix. 
+
+  Set aside for 1 hour.
+
+  Heat a large pan on medium-high heat. 
+
+  Add chicken to pan ensuring there’s enough room for each piece of chicken (as
+  seen below) – no added oil needed since there’s olive oil in the marinade.
+
+  Cover pan with lid and cook for 3-4 minutes.
+
+  Flip each piece of chicken and cook for an additional 3-4 minutes uncovered. 
+source: 'https://whitneyhussain.com/2017/02/27/greek-style-lemon-chicken/'
+prep_time: 0
+cook_time: 0
+servings: 4
+image: ./greek-style-lemon-chicken.webp
+ingredients:
+  - items:
+      - item: 'breast, cut into 1.5 inch cubes'
+        amt: 4 chicken
+      - item: (60 mL) olive oil
+        amt: 1/4 cup
+      - item: 'cloves, minced'
+        amt: 4 garlic
+      - item: '(15 mL) fresh rosemary, minced'
+        amt: 1 tbsp
+      - item: (15 mL) dried oregano
+        amt: 1 tbsp
+      - item: (60 mL) lemon juice
+        amt: 1/4 cup
+      - item: Salt and pepper (to taste)
+        amt: 0 null

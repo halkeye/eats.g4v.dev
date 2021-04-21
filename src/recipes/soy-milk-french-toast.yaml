@@ -1,0 +1,40 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/IMG_20180822_105459/243c0f8712d48e77e6efd29987362d3d.jpg
+course: Breakfast
+cuisine: American
+title: Soy milk french toast
+info: ''
+directions: >-
+  Spray griddle or skillet with canola and place over medium-high heat.
+
+  Beat together the egg, Silk, spices and extract.
+
+  Dip each slice of bread in the Silk mixture, soaking both sides.
+
+  Place on hot skillet and cook until bottoms are golden brown. Flip and brown
+  remaining side.
+
+  Keep warm in low oven until ready to serve.
+source: 'https://www.drinksilk.ca/recipes/french-toast'
+prep_time: 0
+cook_time: 0
+servings: 10
+image: ./soy-milk-french-toast.jpg
+ingredients:
+  - items:
+      - item: Canola cooking spray
+        amt: 0 null
+      - item: eggs
+        amt: 2 null
+      - item: >-
+          (150 ml) Silk Vanilla soy or almond beverage, or Original coconut
+          beverage
+        amt: 2/3 cup
+      - item: (1 ml) cinnamon
+        amt: 1/4 tsp
+      - item: Pinch nutmeg
+        amt: 0 null
+      - item: (5 ml) vanilla or almond extract
+        amt: 1 tsp
+      - item: slices day-old French bread
+        amt: 6 thick

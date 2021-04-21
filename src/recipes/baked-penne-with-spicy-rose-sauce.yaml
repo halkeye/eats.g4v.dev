@@ -1,0 +1,60 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/Vegan-Baked-Penne-With-Spicy-Rose-Sauce/a72b3ff729ffdb85b343463639317c3a.jpg
+tags:
+  - Dairy Free
+  - High Carb Vegan
+  - Vegan
+course: Breakfast
+cuisine: American
+title: 'Baked Penne With Spicy Rose Sauce '
+info: ''
+directions: |2+
+
+
+      Prepare pasta according to package directions. Set aside.
+      Preheat oven to 400°F.
+      Dice the red peppers into small pieces and cut the spinach into thin strips. Set aside.
+      Put all ingredients for the sauce (cashews, non-dairy milk, vegetable broth, tomato, jalapeño, onion, garlic, cilantro, lemon juice, nutritional yeast, and pink Himalayan salt) into a high-speed blender and blend until it's smooth and creamy.
+      In a large mixing bowl, mix together the pasta, sauce, spinach and red bell peppers and stir until well combined.
+       Put the mixture into a 9x13-inch glass baking dish and sprinkle bread crumbs over the top.
+      Bake for approximately 10 minutes or until the topping is lightly browned.
+
+source: 'https://www.onegreenplanet.org/vegan-recipe/baked-penne-with-spicy-rose-sauce/'
+prep_time: 0
+cook_time: 0
+servings: 4
+image: ./baked-penne-with-spicy-rose-sauce.jpg
+ingredients:
+  - items:
+      - item: penne pasta
+        amt: 1 pound
+      - item: 'baby spinach, chopped into thin strips'
+        amt: 2 cups
+      - item: 'bell pepper, diced'
+        amt: 1 red
+  - items:
+      - item: raw cashews
+        amt: 4/3 cups
+      - item: non-dairy milk
+        amt: 1 cup
+      - item: vegetable broth
+        amt: 2/3 cups
+      - item: nutritional yeast
+        amt: 4 tablespoons
+      - item: tomatoes
+        amt: 2 small
+      - item: jalapeños
+        amt: 2 small
+      - item: onion
+        amt: 1/4 medium
+      - item: 'garlic cloves, freshly crushed'
+        amt: 4 small
+      - item: cilantro
+        amt: 2 tablespoons
+      - item: 'organic lemon, freshly juiced'
+        amt: 1 small
+      - item: pink Himalayan salt
+        amt: 1/2 teaspoon
+  - items:
+      - item: gluten-free bread crumbs or panko for non-gluten-free
+        amt: 1 cup

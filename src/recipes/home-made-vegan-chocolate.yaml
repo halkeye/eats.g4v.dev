@@ -1,0 +1,32 @@
+photo_thumbnail: null
+tags:
+  - vegan
+course: Dessert
+cuisine: Dessert
+title: Home made vegan chocolate
+info: |
+  Source: Shawn Ederis
+directions: |-
+  Low heat, no boil, stir often
+  melt the first two ingredients together then add the rest and mix.
+  If you have any other flavouring like mint or whatever add it.
+  Then pour into moulds or ice cube trays and pop into either fridge or freezer.
+  Store in the fridge cause they melt quite easily.
+source: ''
+prep_time: 0
+cook_time: 0
+servings: 1
+ingredients:
+  - items:
+      - item: of coconut oil
+        amt: 2 Cups
+      - item: 'cacao butter (the more you use, the creamier chocolate will be)'
+        amt: 10 tbs
+      - item: cocoa powder
+        amt: 1.5 cups
+      - item: syrup
+        amt: 1/2 maple
+      - item: vanilla
+        amt: 1 tsp
+      - item: pinch of salt
+        amt: 0 null

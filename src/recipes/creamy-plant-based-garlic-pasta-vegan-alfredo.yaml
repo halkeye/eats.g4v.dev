@@ -1,0 +1,57 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/IMG_9913_2/55843b021bbabde147f5a28fb22a1927.jpg
+tags:
+  - vegan
+course: Breakfast
+cuisine: Chinese
+title: Creamy Plant-Based Garlic Pasta / Vegan Alfredo
+info: >
+  Creamy, garlicky pasta that is full of flavor. This pasta is incredibly
+  delicious and super easy to make. It is also dairy-free, nut-free, oil-free
+  and plant-based as it is made using canned coconut milk. The sauce can also be
+  used as a decadent vegan Alfredo.
+directions: >-
+
+
+  Using a pasta pot, cook pasta while preparing the sauce.
+
+  Chop up onion and 3 garlic cloves. Add them to a saute pan or skillet on
+  medium heat with enough water to make sure they don't stick. Saute for 5
+  minutes or until the onions are soft.
+
+  Once the onion and garlic cloves are soft, add the can of coconut milk. Stir
+  together and let simmer for 3 minutes. Add nutritional yeast and salt.
+
+  Chop a handful of spinach and add to the pan along with the peas.
+
+  Once you have a nice creamy sauce, remove from heat and add sun-dried
+  tomatoes.
+
+  Drain pasta and add to a large bowl. Pour sauce on top and stir to combine.
+
+  Finely chop remaining garlic clove or use a garlic press. Stir into pasta.
+source: 'https://pureandplantbased.com/creamy-plant-based-garlic-pasta/'
+prep_time: 5
+cook_time: 15
+servings: 6
+image: ./creamy-plant-based-garlic-pasta-vegan-alfredo.jpg
+ingredients:
+  - items:
+      - item: whole wheat noodles
+        amt: 1 box
+      - item: onion
+        amt: 1 null
+      - item: garlic cloves
+        amt: 4 large
+      - item: coconut milk (must be canned)
+        amt: 1 can
+      - item: nutritional yeast
+        amt: 3 tbs
+      - item: salt + more to taste
+        amt: 1/2 tsp
+      - item: peas
+        amt: 4/3 cup
+      - item: sun-dried tomatoes
+        amt: 1 cup
+      - item: spinach
+        amt: 1 handful

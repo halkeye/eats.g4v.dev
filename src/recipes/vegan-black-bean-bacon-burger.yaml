@@ -1,0 +1,52 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/Screen-Shot-2015-01-18-at-2.00.08-PM-e1441776778739/57ebe6f844f4eb703a80ffe089c4aea0.jpg
+tags:
+  - Burger
+course: Main Dish
+cuisine: American
+title: Vegan Black Bean Bacon Burger
+info: ''
+directions: >-
+  Heat oven to 450º.
+
+  Dry beans after rinsing on a paper towel.
+
+  In a large bowl, combine ingredients to make the patties. You can also do this
+  in a food processor (I normally would do this but my food processor stopped
+  working as I was shooting this video).
+
+  Chill patties in fridge for 30-45 minutes (or 15 minutes in freezer if you
+  don't have time). Now is a good time to prepare toppings and fries.
+
+  Bake patties and bacon for 20-30 minutes (I baked the fries at the same time).
+
+  Assemble burgers and devour them
+source: 'https://veganfoodlover.com/vegan-black-bean-bacon-burger/'
+prep_time: 45
+cook_time: 30
+servings: 1
+image: ./vegan-black-bean-bacon-burger.png
+ingredients:
+  - items:
+      - item: rinsed black beans
+        amt: 1 can
+      - item: finely chopped onion
+        amt: 1 small
+      - item: minced garlic
+        amt: 3 cloves
+      - item: sea salt
+        amt: 1/2 tsp
+      - item: fresh ground pepper
+        amt: 1/2 tsp
+      - item: crushed red pepper
+        amt: 1/2 tsp
+      - item: cumin
+        amt: 1/2 tsp
+      - item: smoked paprika
+        amt: 1/2 tsp
+      - item: Italian seasoning
+        amt: 1/2 tsp
+      - item: flour
+        amt: 1 Tbsp
+      - item: peanut but
+        amt: 1 Tbsp

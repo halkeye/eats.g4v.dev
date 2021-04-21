@@ -1,10 +1,17 @@
----
-title: "Quinoa, Chickpea and Roasted Yam Salad"
-source: http://wealthofhealth.ca/2012/12/09/quinoa-chickpea-and-roasted-yam-salad/
-image: ./quinoa-chickpea-and-roasted-yam-salad.jpg
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/quinoa-salad-2/1e147d07230a88b63708078ac1dc9e5d.jpg
+course: Main Dish
+cuisine: Unknown
+title: 'Quinoa, Chickpea and Roasted Yam Salad'
+info: ''
+directions: "1. Preheat oven to 350 F. \_Toss yams in olive oil, salt and pepper and spread evenly on a baking sheet. \_Bake for 20 minutes, or until tender.\n2. Place quinoa and 1 cup cold water in a medium saucepan and bring to a boil. \_Immediately reduce to low heat, cover, and simmer for 15 minutes. \_Tun heat off, remove lid and let cool.\n3. Place chickpeas, grated carrots, red pepper, sunflower seeds, spinach, parsley, feta, and cooled quinoa and yams in a large bowl.\n4. Whisk together all dressing ingredients and pour over salad ingredients. \_Toss gently until well mixed."
+source: 'http://wealthofhealth.ca/2012/12/09/quinoa-chickpea-and-roasted-yam-salad/'
+prep_time: 0
+cook_time: 0
 servings: 4
+image: ./quinoa-chickpea-and-roasted-yam-salad.jpg
 ingredients:
-  - name: Dressing
+  - name: dressing
     items:
       - item: white balsamic vinegar
         amt: 3 tbsp
@@ -12,8 +19,8 @@ ingredients:
         amt: 1 tbsp
       - item: honey
         amt: 1 tsp
-      - item: clove garlic, crushed (optional)
-        amt: "1"
+      - item: 'garlic, crushed (optional)'
+        amt: 1 clove
       - item: pepper
         amt: 1/2 tsp
       - item: olive oil
@@ -22,31 +29,25 @@ ingredients:
     items:
       - item: quinoa
         amt: 1/2 cup
-      - item: yams, peeled and cut into 1/2 inch cubes
-        amt: 1 1/2 cup
+      - item: 'yams, peeled and cut into 1/2 inch cubes'
+        amt: 3/2 cup
       - item: olive oil
         amt: 1 tbsp
-      - item: pepper, cracked
+      - item: 'pepper, cracked'
         amt: 1/8 tsp
       - item: sea salt
         amt: 1/8 tsp
-      - item: chickpeas, rinsed and drained
-        amt: 2 (14 oz) cans
-      - item: carrot, peeled and grated
+      - item: '(14 oz) cans chickpeas, rinsed and drained'
+        amt: "2"
+      - item: peeled and grated
+        amt: '1 carrot,'
+      - item: 'red pepper, diced'
         amt: "1"
-      - item: red pepper, diced
-        amt: "1"
-      - item: sunflower seeds, toasted
+      - item: 'sunflower seeds, toasted'
         amt: 1/2 cup
-      - item: spinach, chopped coarsely
+      - item: 'spinach, chopped coarsely'
         amt: 1 cup
-      - item: parsley, chopped
+      - item: 'parsley, chopped'
         amt: 1/2 cup
-      - item: feta cheese, crumbled
+      - item: 'feta cheese, crumbled'
         amt: 1/2 cup
-directions:
-  - Preheat oven to 350 F.  Toss yams in olive oil, salt and pepper and spread evenly on a baking sheet.  Bake for 20 minutes, or until tender.
-  - Place quinoa and 1 cup cold water in a medium saucepan and bring to a boil.  Immediately reduce to low heat, cover, and simmer for 15 minutes.  Tun heat off, remove lid and let cool.
-  - Place chickpeas, grated carrots, red pepper, sunflower seeds, spinach, parsley, feta, and cooled quinoa and yams in a large bowl.
-  - Whisk together all dressing ingredients and pour over salad ingredients.  Toss gently until well mixed.
-

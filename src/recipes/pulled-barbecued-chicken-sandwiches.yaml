@@ -1,0 +1,47 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/Pulled-Barbecued-Chicken-Sandwiches-1/1a4b2cafd7c18e7791a645fc03a13705.jpg
+course: Lunch
+cuisine: Slow Cooker
+title: Pulled barbecued chicken sandwiches
+info: >
+  The brand of barbecue sauce that you use can make a big difference in the
+  flavor of the chicken. I like Sweet Baby Ray’s!
+directions: >-
+  Place chicken in the slow cooker. In a medium bowl, whisk together the
+  barbecue sauce, Italian dressing, sugar and Worcestershire sauce. Pour the
+  sauce over the chicken. Cover and cook on low for 4 1/2 to 5 hours.
+
+  Remove the chicken to a cutting board. In a small bowl, mix cornstarch and
+  chicken broth. Stir it into the sauce in the slow cooker. Cover and cook on
+  high until the sauce is thickened and heated through (10 to 15 minutes).
+  Meanwhile, use two forks to shred the chicken. Return the shredded chicken to
+  the slow cooker and stir. Add additional barbecue sauce if more sauce is
+  needed or desired. Cover and continue cooking on low for 45 minutes. Serve
+  chicken piled onto rolls. Add pickles, if desired.
+source: 'https://www.recipegirl.com/slow-cooker-pulled-barbecued-chicken-sandwiches/'
+prep_time: 10
+cook_time: 360
+servings: 8
+image: ./pulled-barbecued-chicken-sandwiches.jpg
+ingredients:
+  - items:
+      - item: 'boneless, skinless chicken breasts'
+        amt: 2 pounds
+      - item: barbecue sauce (a flavor you like)
+        amt: 1 cup
+      - item: Italian dressing (reduced-fat or fat-free okay)
+        amt: 1/3 cup
+      - item: packed brown sugar
+        amt: 2 tablespoons
+      - item: Worcestershire sauce
+        amt: 1 tablespoon
+      - item: cornstarch
+        amt: 2 tablespoons
+      - item: chicken broth
+        amt: 2 tablespoons
+      - item: 'additional barbecue sauce, if desired'
+        amt: 0 null
+      - item: 'rolls, for serving as sandwiches'
+        amt: 0 null
+      - item: 'bread and butter pickles, optional'
+        amt: 0 null

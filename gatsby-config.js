@@ -1,22 +1,23 @@
 module.exports = {
   siteMetadata: {
-    title: "Eats",
+    title: 'Eats'
   },
   plugins: [
-    "gatsby-plugin-image",
+    'gatsby-plugin-offline',
+    'gatsby-plugin-image',
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "G-QSS6YQR515",
-      },
+        trackingId: 'G-QSS6YQR515'
+      }
     },
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: "src/images/icon.png",
-      },
+        icon: 'src/images/icon.png'
+      }
     },
     /*
     {
@@ -30,32 +31,32 @@ module.exports = {
       },
     },
     */
-    `gatsby-transformer-yaml`,
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    'gatsby-transformer-yaml',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: 'images',
+        path: './src/images/'
       },
-      __key: "images",
+      __key: 'images'
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: 'pages',
+        path: './src/pages/'
       },
-      __key: "pages",
+      __key: 'pages'
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "recipes",
-        path: "./src/recipes/",
+        name: 'recipes',
+        path: './src/recipes/'
       },
-      __key: "recipes",
-    },
-  ],
+      __key: 'recipes'
+    }
+  ]
 };

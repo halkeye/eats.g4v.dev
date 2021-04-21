@@ -1,0 +1,81 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/IMG_0012-2/b55ff1604aebb85f2a37ee18133434eb.jpg
+tags:
+  - carrot
+  - vegan
+course: Dessert
+cuisine: Dessert
+title: Vegan Carrot Cake (& Frosting)
+info: ''
+directions: >-
+  Preheat the oven to 350°F and grease a 9x13 baking pan.
+
+  In a large bowl, whisk together the flour, baking powder, baking soda,
+  cinnamon, nutmeg and salt.
+
+  In a separate bowl, whisk together the applesauce, almond milk, vanilla, sugar
+  and oil.
+
+  Mix the dry ingredients into the bowl with the wet ingredients.
+
+  Fold in the carrots and stir until just combined.
+
+  Bake for 30 to 40 minutes or until a toothpick inserted comes out clean. Let
+  cake cool completely before frosting.
+
+  Make the frosting: combine all frosting ingredients into a high speed blender.
+  Blend until very smooth for 1 to 2 minutes or more, scraping down the sides
+  occasionally. You can add an extra tablespoon of almond milk if necessary to
+  get your blade moving.
+
+  Chill for at least 30 minutes before spreading. (It will firm up a bit).
+
+  Store frosted cake in the fridge.
+source: 'https://www.loveandlemons.com/vegan-carrot-cake-macadamia-frosting/'
+prep_time: 40
+cook_time: 40
+servings: 12
+image: ./vegan-carrot-cake-frosting.jpg
+ingredients:
+  - items:
+      - item: '(256g) flour (I use half spelt, half all purpose flour)'
+        amt: 9/4 cups
+      - item: baking powder (*see note below)
+        amt: 3 teaspoons
+      - item: baking soda
+        amt: 1 teaspoon
+      - item: cinnamon
+        amt: 3 teaspoons
+      - item: nutmeg
+        amt: 1/2 teaspoon
+      - item: salt
+        amt: 1 teaspoon
+      - item: (125g) applesauce
+        amt: 1/2 cup
+      - item: original Almond Breeze Almond Milk
+        amt: 1 cup
+      - item: vanilla
+        amt: 2 teaspoons
+      - item: cane sugar
+        amt: 1 cup
+      - item: (melted) coconut or canola oil
+        amt: 1/2 cup
+      - item: '(240g) grated carrots, medium-packed'
+        amt: 2 cups
+  - items:
+      - item: '(58g) raw macadamia nuts (soaked, drained and rinsed)*'
+        amt: 1/2 cup
+      - item: 'cup raw cashews (soaked, drained and rinsed)*'
+        amt: 1/2 (68g)
+      - item: almond milk
+        amt: 1/4 cup
+      - item: maple syrup
+        amt: 1/4 cup
+      - item: coconut oil
+        amt: 2 tablespoons
+      - item: vanilla
+        amt: 1 teaspoon
+      - item: fresh lemon juice
+        amt: 2 teaspoons
+      - item: salt
+        amt: 1/2 teaspoon

@@ -1,0 +1,43 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/084e23c306e9ed1e941d26b5255eb71037d13b0d/5256014419c23815d65e31d1b816f956.jpeg
+tags:
+  - vegan
+course: Dessert
+cuisine: Dessert
+title: Vegan Chocolate Chip Blondies
+info: ''
+directions: >-
+  Pre heat oven to 350
+
+  mix all the ingredients except for the chocolate chips into a good blender or
+  food processor and blend until smooth
+
+  stir in the ⅔ cup chocolate chips into the batter
+
+  spread batter evenly in a 9-by-13-inch pan and gently press in chocolate chips
+  on the top
+
+  bake for about 25 minutes or until toothpick comes out clean
+source: ''
+prep_time: 0
+cook_time: 0
+servings: 10
+image: ./vegan-chocolate-chip-blondies.jpeg
+ingredients:
+  - items:
+      - item: chickpeas
+        amt: 2 cans
+      - item: peanut butter
+        amt: 1 cup
+      - item: maple syrup
+        amt: 2/3 cup
+      - item: vanilla
+        amt: 4 tsp
+      - item: salt
+        amt: 1 tsp
+      - item: baking powder
+        amt: 1/2 tsp
+      - item: baking soda
+        amt: 1/2 tsp
+      - item: semi sweet chocolate chips
+        amt: 2/3 cup

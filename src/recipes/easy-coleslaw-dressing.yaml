@@ -1,0 +1,32 @@
+photo_thumbnail: >-
+  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/1967016/885ba96b5f552d6dc149e8e345f3d1f4.jpg
+course: Side Dish
+cuisine: American
+title: Easy Coleslaw Dressing
+info: >-
+  A creamy coleslaw dressing that can be made with ingredients you already have!
+  You can pour it immediately over a 14-ounce package of coleslaw mix or
+  refrigerate until needed.
+directions: >-
+  Whisk mayonnaise, sugar, lemon juice, vinegar, pepper, and salt together in a
+  bowl until smooth and creamy.
+source: >-
+  https://www.allrecipes.com/recipe/240784/easy-coleslaw-dressing/print/?recipeType=Recipe&servings=6&isMetric=false
+prep_time: 10
+cook_time: 10
+servings: 6
+image: ./easy-coleslaw-dressing.jpg
+ingredients:
+  - items:
+      - item: mayonnaise
+        amt: 1/2 cup
+      - item: white sugar
+        amt: 2 tablespoons
+      - item: lemon juice
+        amt: 3/2 tablespoons
+      - item: vinegar
+        amt: 1 tablespoon
+      - item: ground black pepper
+        amt: 1/2 teaspoon
+      - item: salt
+        amt: 1/4 teaspoon
