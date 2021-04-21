@@ -15,7 +15,7 @@ export default function Recipe({data}) {
     <Layout>
       <h1>{recipe.title}</h1>
       <div>Hello blog post</div>
-      <GatsbyImage image={recipe.image.childImageSharp.gatsbyImageData} />
+      {recipe.image && recipe.image.childImageSharp && <GatsbyImage image={recipe.image.childImageSharp.gatsbyImageData} />}
     </Layout>
   );
 }
