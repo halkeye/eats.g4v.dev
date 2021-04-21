@@ -18,7 +18,19 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-plugin-mdx",
+    /*
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        extensions: [`.mdx`],
+        defaultLayouts: {
+          recipes: require.resolve("./src/components/recipes-layout.js"),
+          // default: require.resolve("./src/components/default-page-layout.js"),
+        },
+      },
+    },
+    */
+    `gatsby-transformer-yaml`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -36,6 +48,14 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "recipes",
+        path: "./src/recipes/",
+      },
+      __key: "recipes",
     },
   ],
 };
