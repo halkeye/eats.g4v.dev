@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Eats'
+    title: 'Eats',
+    siteUrl: 'https://eats.g4v.dev/',
+    description: 'Recipes collected by Gavin'
   },
   plugins: [
-    'gatsby-plugin-image',
     'gatsby-plugin-offline',
     'gatsby-plugin-image',
     {
