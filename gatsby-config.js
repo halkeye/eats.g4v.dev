@@ -3,6 +3,7 @@ module.exports = {
     title: 'Eats'
   },
   plugins: [
+    'gatsby-plugin-image',
     'gatsby-plugin-offline',
     'gatsby-plugin-image',
     {
