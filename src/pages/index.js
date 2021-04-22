@@ -2,6 +2,7 @@
 import * as React from 'react';
 import {graphql, Link} from 'gatsby';
 import {GatsbyImage} from 'gatsby-plugin-image';
+import PlaceholderFood from '../images/placeholder_food.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const IndexPage = ({
@@ -63,17 +64,21 @@ const IndexPage = ({
               {recipies.map(({recipe}) => {
                 return (
                   <div key={recipe.id} className="col-xs-12 col-sm-6 col-md-3">
-                    <div className="card w-100 h-100">
-                      {recipe.image ? <GatsbyImage className="card-img-top" image={recipe.image.childImageSharp.gatsbyImageData} alt={recipe.title} /> : <div>FIXME</div>}
-                      <div className="card-body">
-                        <h5 className="card-title"><Link to={recipe.fields.slug}>{recipe.title}</Link></h5>
+                    <div className="card w-100">
+                      <div className="card-block">
+                        {recipe.image ? <GatsbyImage className="card-img-top" image={recipe.image.childImageSharp.gatsbyImageData} alt={recipe.title} style={{height: '200px'}} /> : <PlaceholderFood className="card-img-top" style={{height: '200px'}} /> }
+                        <div className="card-body">
+                          <h5 className="card-title"><Link to={recipe.fields.slug}>{recipe.title}</Link></h5>
+                        </div>
                       </div>
                     </div>
                   </div>
                 );
               })}
             </div>
-            {/* <pre>{JSON.stringify(recipies, null, 2)}</pre> */}
+            <div className="row">
+              {/* <pre>{JSON.stringify(recipies, null, 2)}</pre> */}
+            </div>
           </main>
         </div>
       </div>

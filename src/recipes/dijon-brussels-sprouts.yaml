@@ -28,7 +28,7 @@ source: 'https://hellyesitsvegan.com/recipes/dijon-brussels-sprouts/'
 prep_time: 5
 cook_time: 25
 servings: 4
-image: ./dijon-brussels-sprouts.webp
+image: ./dijon-brussels-sprouts.png
 ingredients:
   - items:
       - item: brussels sprouts

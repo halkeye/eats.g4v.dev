@@ -5,6 +5,7 @@ module.exports = {
     description: 'Recipes collected by Gavin'
   },
   plugins: [
+    'gatsby-plugin-react-svg',
     'gatsby-plugin-offline',
     'gatsby-plugin-image',
     {
