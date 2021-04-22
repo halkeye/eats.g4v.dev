@@ -2,36 +2,31 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {graphql} from 'gatsby';
 import {GatsbyImage} from 'gatsby-plugin-image';
-// import Layout from '../components/layout';
+import Layout from '../components/layout';
 
-const Layout = ({children}) => <>{children}</>;
-Layout.propTypes = {
-  children: PropTypes.element.isRequired
-};
-
-export default function Recipe({data}) {
-  const recipe = data.recipesYaml;
+export default function Recipe({data: {recipe}}) {
   return (
     <Layout>
       <h1>{recipe.title}</h1>
       <div>Hello blog post</div>
-      {recipe.image && recipe.image.childImageSharp && <GatsbyImage image={recipe.image.childImageSharp.gatsbyImageData} />}
+      {recipe.image?.childImageSharp && <GatsbyImage image={recipe.image.childImageSharp.gatsbyImageData} />}
     </Layout>
   );
 }
 
 Recipe.propTypes = {
   data: PropTypes.shape({
-    recipesYaml: PropTypes.shape({
-      id: PropTypes.string.required,
-      title: PropTypes.string.required
-    }).required
-  }).required
+    recipe: PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+      image: PropTypes.object
+    }).isRequired
+  }).isRequired
 };
 
 export const query = graphql`
   query($slug: String!) {
-    recipesYaml(fields: { slug: { eq: $slug } }) {
+    recipe: recipesYaml(fields: { slug: { eq: $slug } }) {
       id
       title
       ingredients {
