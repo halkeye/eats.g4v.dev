@@ -44,7 +44,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query {
-    allRecipesYaml(sort: { order: DESC, fields: [title] }) {
+    allRecipesYaml(sort: { order: ASC, fields: [title] }) {
       recipies: edges {
         recipe: node {
           id
