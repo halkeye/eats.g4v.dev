@@ -25,14 +25,14 @@ const IndexPage = ({
             return (
               <div key={recipe.id} className="col-xs-12 col-sm-6 col-md-3">
                 <div className="card w-100">
-                  <div className="card-block">
-                    <Link to={recipe.fields.slug}>
+                  <Link to={recipe.fields.slug}>
+                    <div className="card-block">
                       <GatsbyImage className="card-img-top" image={getImage(recipe.image)} alt={recipe.title} style={{height: '200px'}} />
-                    </Link>
-                    <div className="card-body">
-                      <h5 className="card-title"><Link to={recipe.fields.slug}>{recipe.title}</Link></h5>
+                      <div className="card-body">
+                        <h5 className="card-title"><Link to={recipe.fields.slug}>{recipe.title}</Link></h5>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </div>
             );
