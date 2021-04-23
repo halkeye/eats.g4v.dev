@@ -6,12 +6,17 @@ title: Home made vegan chocolate
 image: ../images/placeholder_food.png
 info: |
   Source: Shawn Ederis
-directions: |-
-  Low heat, no boil, stir often
-  melt the first two ingredients together then add the rest and mix.
-  If you have any other flavouring like mint or whatever add it.
-  Then pour into moulds or ice cube trays and pop into either fridge or freezer.
-  Store in the fridge cause they melt quite easily.
+directions:
+  - >-
+    Low heat, no boil, stir often
+  - >-
+    melt the first two ingredients together then add the rest and mix.
+  - >-
+    If you have any other flavouring like mint or whatever add it.
+  - >-
+    Then pour into moulds or ice cube trays and pop into either fridge or freezer.
+  - >-
+    Store in the fridge cause they melt quite easily.
 source: ''
 prep_time: 0
 cook_time: 0

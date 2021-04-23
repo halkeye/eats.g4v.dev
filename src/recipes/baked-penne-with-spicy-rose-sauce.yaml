@@ -6,15 +6,20 @@ course: Breakfast
 cuisine: American
 title: 'Baked Penne With Spicy Rose Sauce '
 info: ''
-directions: |2+
-
-
+directions:
+  - >-
       Prepare pasta according to package directions. Set aside.
+  - >-
       Preheat oven to 400°F.
+  - >-
       Dice the red peppers into small pieces and cut the spinach into thin strips. Set aside.
+  - >-
       Put all ingredients for the sauce (cashews, non-dairy milk, vegetable broth, tomato, jalapeño, onion, garlic, cilantro, lemon juice, nutritional yeast, and pink Himalayan salt) into a high-speed blender and blend until it's smooth and creamy.
+  - >-
       In a large mixing bowl, mix together the pasta, sauce, spinach and red bell peppers and stir until well combined.
-       Put the mixture into a 9x13-inch glass baking dish and sprinkle bread crumbs over the top.
+  - >-
+      Put the mixture into a 9x13-inch glass baking dish and sprinkle bread crumbs over the top.
+  - >-
       Bake for approximately 10 minutes or until the topping is lightly browned.
 
 source: 'https://www.onegreenplanet.org/vegan-recipe/baked-penne-with-spicy-rose-sauce/'

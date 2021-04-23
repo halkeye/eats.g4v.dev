@@ -4,18 +4,23 @@ course: Dessert
 cuisine: Dessert
 title: Vegan Chocolate Chip Blondies
 info: ''
-directions: >-
-  Pre heat oven to 350
+directions:
+  - >-
+    Pre heat oven to 350
 
-  mix all the ingredients except for the chocolate chips into a good blender or
-  food processor and blend until smooth
+  - >-
+    mix all the ingredients except for the chocolate chips into a good blender or
+    food processor and blend until smooth
 
-  stir in the ⅔ cup chocolate chips into the batter
+  - >-
+    stir in the 2/3 cup chocolate chips into the batter
 
-  spread batter evenly in a 9-by-13-inch pan and gently press in chocolate chips
-  on the top
+  - >-
+    spread batter evenly in a 9-by-13-inch pan and gently press in chocolate chips
+    on the top
 
-  bake for about 25 minutes or until toothpick comes out clean
+  - >-
+    bake for about 25 minutes or until toothpick comes out clean
 source: ''
 prep_time: 0
 cook_time: 0

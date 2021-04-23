@@ -4,21 +4,26 @@ course: Main Dish
 cuisine: Asian
 title: Soy Baked Tofu
 info: ''
-directions: >-
-  Preheat your oven to 400ºF or 200ºC.
+directions:
+  - >-
+    Preheat your oven to 400ºF or 200ºC.
 
-  Add the cubed tofu, tamari/soy sauce, oil and garlic powder to a large bowl,
-  mix until well combined and let the tofu marinade for at least 5 minutes.
+  - >-
+    Add the cubed tofu, tamari/soy sauce, oil and garlic powder to a large bowl,
+    mix until well combined and let the tofu marinade for at least 5 minutes.
 
-  Drain the tofu, transfer 1/3 of the tofu cubes to a freezer bag with 1 or 2
-  tbsp of cornstarch and toss to coat. Repeat with the rest of the tofu cubesand
-  cornstarch.
+  - >-
+    Drain the tofu, transfer 1/3 of the tofu cubes to a freezer bag with 1 or 2
+    tbsp of cornstarch and toss to coat. Repeat with the rest of the tofu cubesand
+    cornstarch.
 
-  Place the tofu cubes onto a lined baking sheet and then bake them for 30
-  minutes or until golden brown, flipping the tofu cubes halfway.
+  - >-
+    Place the tofu cubes onto a lined baking sheet and then bake them for 30
+    minutes or until golden brown, flipping the tofu cubes halfway.
 
-  Serve immediately or keep leftovers for 4 to 5 days in an airtight container
-  in the fridge.
+  - >-
+    Serve immediately or keep leftovers for 4 to 5 days in an airtight container
+    in the fridge.
 source: 'https://simpleveganblog.com/baked-tofu/'
 prep_time: 10
 cook_time: 30

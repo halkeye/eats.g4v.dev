@@ -5,39 +5,49 @@ course: Dessert
 cuisine: Dessert
 title: Vegan Carrot Cake (& Frosting)
 info: ''
-directions: >-
-  Preheat the oven to 350°F and grease a 9x13 baking pan.
+directions:
+  - >-
+    Preheat the oven to 350°F and grease a 9x13 baking pan.
 
-  In a large bowl, whisk together the flour, baking powder, baking soda,
-  cinnamon, nutmeg and salt.
+  - >-
+    In a large bowl, whisk together the flour, baking powder, baking soda,
+    cinnamon, nutmeg and salt.
 
-  In a separate bowl, whisk together the applesauce, almond milk, vanilla, sugar
-  and oil.
+  - >-
+    In a separate bowl, whisk together the applesauce, almond milk, vanilla, sugar
+    and oil.
 
-  Mix the dry ingredients into the bowl with the wet ingredients.
+  - >-
+    Mix the dry ingredients into the bowl with the wet ingredients.
 
-  Fold in the carrots and stir until just combined.
+  - >-
+    Fold in the carrots and stir until just combined.
 
-  Bake for 30 to 40 minutes or until a toothpick inserted comes out clean. Let
-  cake cool completely before frosting.
+  - >-
+    Bake for 30 to 40 minutes or until a toothpick inserted comes out clean. Let
+    cake cool completely before frosting.
 
-  Make the frosting: combine all frosting ingredients into a high speed blender.
-  Blend until very smooth for 1 to 2 minutes or more, scraping down the sides
-  occasionally. You can add an extra tablespoon of almond milk if necessary to
-  get your blade moving.
+  - >-
+    Make the frosting: combine all frosting ingredients into a high speed blender.
+    Blend until very smooth for 1 to 2 minutes or more, scraping down the sides
+    occasionally. You can add an extra tablespoon of almond milk if necessary to
+    get your blade moving.
 
-  Chill for at least 30 minutes before spreading. (It will firm up a bit).
+  - >-
+    Chill for at least 30 minutes before spreading. (It will firm up a bit).
 
-  Store frosted cake in the fridge.
+  - >-
+    Store frosted cake in the fridge.
 source: 'https://www.loveandlemons.com/vegan-carrot-cake-macadamia-frosting/'
 prep_time: 40
 cook_time: 40
 servings: 12
 image: ./vegan-carrot-cake-frosting.jpg
 ingredients:
-  - items:
-      - item: '(256g) flour (I use half spelt, half all purpose flour)'
-        amt: 9/4 cups
+  - name: cake
+    items:
+      - item: 'flour (I use half spelt, half all purpose flour)'
+        amt: 2 1/4 (256g) cups
       - item: baking powder (*see note below)
         amt: 3 teaspoons
       - item: baking soda
@@ -48,8 +58,8 @@ ingredients:
         amt: 1/2 teaspoon
       - item: salt
         amt: 1 teaspoon
-      - item: (125g) applesauce
-        amt: 1/2 cup
+      - item: applesauce
+        amt: 1/2 (125g) cup
       - item: original Almond Breeze Almond Milk
         amt: 1 cup
       - item: vanilla
@@ -60,11 +70,12 @@ ingredients:
         amt: 1/2 cup
       - item: '(240g) grated carrots, medium-packed'
         amt: 2 cups
-  - items:
-      - item: '(58g) raw macadamia nuts (soaked, drained and rinsed)*'
-        amt: 1/2 cup
-      - item: 'cup raw cashews (soaked, drained and rinsed)*'
-        amt: 1/2 (68g)
+  - name: frosting
+    items:
+      - item: 'raw macadamia nuts (soaked, drained and rinsed)*'
+        amt: 1/2 (58g) cup
+      - item: 'raw cashews (soaked, drained and rinsed)*'
+        amt: 1/2 (68g) cup
       - item: almond milk
         amt: 1/4 cup
       - item: maple syrup

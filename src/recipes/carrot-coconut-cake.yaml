@@ -7,20 +7,24 @@ info: >-
   have a stop-by guest wanting a little tea and gossip. For some extra zip,
   toast some coconut flakes and use them to garnish the top of the cake after
   frosting.
-directions: >-
-  In a medium bowl, whisk together oil, sugar, egg, cinnamon, nutmeg, vanilla,
-  carrot, coconut flakes, flour and baking powder. Do not overmix. Fold in
-  pecans. Pour batter into a greased 6" cake pan.
+directions:
+  - >-
+    In a medium bowl, whisk together oil, sugar, egg, cinnamon, nutmeg, vanilla,
+    carrot, coconut flakes, flour and baking powder. Do not overmix. Fold in
+    pecans. Pour batter into a greased 6" cake pan.
 
-  Pour water into the Instant Pot. Set trivet in pot. Place cake pan on top of
-  the trivet. Lock lid.
+  - >-
+    Pour water into the Instant Pot. Set trivet in pot. Place cake pan on top of
+    the trivet. Lock lid.
 
-  Press the manual button and adjust time to 20 minutes. When timer beeps, let
-  pressure release naturally for 5 minutes. Quick-release any additional
-  pressure until float valve drops and then unlock lid.
+  - >-
+    Press the manual button and adjust time to 20 minutes. When timer beeps, let
+    pressure release naturally for 5 minutes. Quick-release any additional
+    pressure until float valve drops and then unlock lid.
 
-  Remove cake pan from the pot and transfer to a rack until cool. Flip cake onto
-  a service platter.
+  - >-
+    Remove cake pan from the pot and transfer to a rack until cool. Flip cake onto
+    a service platter.
 source: 'https://www.amazn.com/Love-Instant-Pot%C2%AE-Recipe-Book/dp/1507202288'
 image: ../images/placeholder_food.png
 prep_time: 10

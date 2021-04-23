@@ -5,9 +5,10 @@ info: >-
   A creamy coleslaw dressing that can be made with ingredients you already have!
   You can pour it immediately over a 14-ounce package of coleslaw mix or
   refrigerate until needed.
-directions: >-
-  Whisk mayonnaise, sugar, lemon juice, vinegar, pepper, and salt together in a
-  bowl until smooth and creamy.
+directions:
+  - >-
+    Whisk mayonnaise, sugar, lemon juice, vinegar, pepper, and salt together in a
+    bowl until smooth and creamy.
 source: >-
   https://www.allrecipes.com/recipe/240784/easy-coleslaw-dressing/print/?recipeType=Recipe&servings=6&isMetric=false
 prep_time: 10

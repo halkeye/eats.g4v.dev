@@ -6,16 +6,18 @@ cuisine: American
 title: Barbeque Chicken
 image: ../images/placeholder_food.png
 info: ''
-directions: >-
-  In a large glass bowl mix lemon juice, vegetable oil, vinegar oregano, and
-  garlic powder. Place chicken pieces in the bowl, and season with salt and
-  pepper. Cover, and marinate in the refrigerator at least 1 hour.
-
-  Preheat an outdoor grill for high heat, and lightly oil grate
-
-  On the prepared grill, cook chicken until no longer pink and juices run clear.
-  Periodically brush chicken with remaining marinade mixture while cooking.
-  Discard any leftover marinade.
+directions:
+  - >-
+    In a large glass bowl mix lemon juice, vegetable oil, vinegar oregano, and
+    garlic powder. Place chicken pieces in the bowl, and season with salt and
+    pepper. Cover, and marinate in the refrigerator at least 1 hour.
+  - >-
+    Preheat an outdoor grill for high heat, and lightly oil grate
+  - >-
+    On the prepared grill, cook chicken until no longer pink and juices run clear.
+    Periodically brush chicken with remaining marinade mixture while cooking.
+  - >-
+    Discard any leftover marinade.
 source: allrecipes.com
 prep_time: 15
 cook_time: 20

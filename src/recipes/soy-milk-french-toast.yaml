@@ -2,17 +2,22 @@ course: Breakfast
 cuisine: American
 title: Soy milk french toast
 info: ''
-directions: >-
-  Spray griddle or skillet with canola and place over medium-high heat.
+directions:
+  - >-
+    Spray griddle or skillet with canola and place over medium-high heat.
 
-  Beat together the egg, Silk, spices and extract.
+  - >-
+    Beat together the egg, Silk, spices and extract.
 
-  Dip each slice of bread in the Silk mixture, soaking both sides.
+  - >-
+    Dip each slice of bread in the Silk mixture, soaking both sides.
 
-  Place on hot skillet and cook until bottoms are golden brown. Flip and brown
-  remaining side.
+  - >-
+    Place on hot skillet and cook until bottoms are golden brown. Flip and brown
+    remaining side.
 
-  Keep warm in low oven until ready to serve.
+  - >-
+    Keep warm in low oven until ready to serve.
 source: 'https://www.drinksilk.ca/recipes/french-toast'
 prep_time: 0
 cook_time: 0

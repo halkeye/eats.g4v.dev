@@ -3,25 +3,29 @@ cuisine: Slow Cooker
 title: Bachelor Beef Stew
 info: Slowcooker Revolution (p56)
 image: ../images/placeholder_food.png
-directions: >-
-  Microwave onions, tomato paste, 1 tablespoon oil, garlic powder, and thyme to
-  bowl, stirring occasionally, until onion are softened, about 5 minutes:
-  transfer to slow cooker.
+directions:
+  - >-
+    Microwave onions, tomato paste, 1 tablespoon oil, garlic powder, and thyme to
+    bowl, stirring occasionally, until onion are softened, about 5 minutes:
+    transfer to slow cooker.
 
-  Stir chicken broth, beef broth, carrots, soy sauce, tapioca, and bay leaves
-  into slow cooker. Season beef with salt and pepper and nestle into slow
-  cooker. Cover and cook until beef is tender 9 to 11 hours on low or 5 to 7
-  hours on high
+  - >-
+    Stir chicken broth, beef broth, carrots, soy sauce, tapioca, and bay leaves
+    into slow cooker. Season beef with salt and pepper and nestle into slow
+    cooker. Cover and cook until beef is tender 9 to 11 hours on low or 5 to 7
+    hours on high
 
-  Transfer beef to cutting board, let cool slightly, then shred into bite sized
-  pieces (see page 21). Let stew settle for 5 minutes, then remove fat from the
-  surface using a large spoon. Discard bay leaves
+  - >-
+    Transfer beef to cutting board, let cool slightly, then shred into bite sized
+    pieces (see page 21). Let stew settle for 5 minutes, then remove fat from the
+    surface using a large spoon. Discard bay leaves
 
-  Microwave potatoes with remaining tablespoon oil in bowl, stirring
-  occasionally, until thawed and warm, 5 to 7 minutes. Stir warm potatoes,
-  shredded beef, and peas into stew and let sit until heated through, about 5
-  minutes (Adjust stew consistency with additional hot broth as needed.) Season
-  with salt and pepper to taste and serve.
+  - >-
+    Microwave potatoes with remaining tablespoon oil in bowl, stirring
+    occasionally, until thawed and warm, 5 to 7 minutes. Stir warm potatoes,
+    shredded beef, and peas into stew and let sit until heated through, about 5
+    minutes (Adjust stew consistency with additional hot broth as needed.) Season
+    with salt and pepper to taste and serve.
 source: ''
 prep_time: 0
 cook_time: 660

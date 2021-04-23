@@ -2,7 +2,7 @@ course: Main Dish
 cuisine: Asian
 title: Yakisoba Sauce
 info: ''
-directions: combine
+directions: ['combine']
 image: ../images/placeholder_food.png
 source: 'https://imgur.com/gallery/dufnbZz'
 prep_time: 0

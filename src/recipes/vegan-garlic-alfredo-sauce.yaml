@@ -2,32 +2,40 @@ course: Breakfast
 cuisine: American
 title: Vegan Garlic Alfredo Sauce
 info: ''
-directions: >-
-  Add the onion and ONLY 1 cup of the broth to a large pan over medium to
-  medium-high heat.
+directions:
+  - >-
+    Add the onion and ONLY 1 cup of the broth to a large pan over medium to
+    medium-high heat.
 
-  Cook for about 8 minutes until the onion is very tender. (Add a tiny bit more
-  broth if it is cooking too fast or turn the heat down, so the onions don't
-  burn) 
+  - >-
+    Cook for about 8 minutes until the onion is very tender. (Add a tiny bit more
+    broth if it is cooking too fast or turn the heat down, so the onions don't
+    burn)
 
-  After 8 minutes, add the garlic and cook a couple of minutes more, stirring
-  often. All of the broth should have evaporated by now. If not, keep letting it
-  cook until the broth is GONE. You don't want any more liquid once it's done
-  cooking, so the end result is thick and creamy.
+  - >-
+    After 8 minutes, add the garlic and cook a couple of minutes more, stirring
+    often. All of the broth should have evaporated by now. If not, keep letting it
+    cook until the broth is GONE. You don't want any more liquid once it's done
+    cooking, so the end result is thick and creamy.
 
-  Add the cooked veggies (the onion and garlic) to a blender. 
+  - >-
+    Add the cooked veggies (the onion and garlic) to a blender.
 
-  Start out by adding JUST 1/2 cup more of the remaining broth and add the
-  remaining ingredients (salt, pepper, cashews, starting with JUST 1 tablespoon
-  lemon juice, nutritional yeast-starting with just 2 tablespoons yeast). 
+  - >-
+    Start out by adding JUST 1/2 cup more of the remaining broth and add the
+    remaining ingredients (salt, pepper, cashews, starting with JUST 1 tablespoon
+    lemon juice, nutritional yeast-starting with just 2 tablespoons yeast).
 
-  Blend on high for a couple of minutes until very creamy and smooth. Add any
-  more broth to reach desired consistency, if necessary. I did not. If you don't
-  add more broth, you would likely not need any more yeast. 
+  - >-
+    Blend on high for a couple of minutes until very creamy and smooth. Add any
+    more broth to reach desired consistency, if necessary. I did not. If you don't
+    add more broth, you would likely not need any more yeast.
 
-  Taste and add any more salt & pepper or lemon, if desired.
+  - >-
+    Taste and add any more salt & pepper or lemon, if desired.
 
-  Serve over preferred pasta.
+  - >-
+    Serve over preferred pasta.
 source: 'https://thevegan8.com/vegan-garlic-alfredo-sauce'
 prep_time: 10
 cook_time: 10

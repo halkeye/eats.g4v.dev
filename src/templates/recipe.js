@@ -15,8 +15,9 @@ export default function Recipe({data: {recipe}}) {
           alt={recipe.title}
         />
         <div className="card-body">
-          <h5 className="card-title">{recipe.title}</h5>
+          <h4 className="card-title">{recipe.title}</h4>
           <p className="card-text">
+            <h5>Ingredients</h5>
             {recipe.ingredients.map((i, idx) => {
               return (
                 <div key={idx}>
@@ -41,6 +42,10 @@ export default function Recipe({data: {recipe}}) {
                 </div>
               );
             })}
+            <h5>Directions</h5>
+            <ol>
+              {recipe.directions.map((d, idx) => (<li key={idx}>{d}</li>))}
+            </ol>
           </p>
         </div>
       </div>
@@ -53,6 +58,7 @@ Recipe.propTypes = {
     recipe: PropTypes.shape({
       id: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
+      directions: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
       image: PropTypes.object,
       ingredients: PropTypes.arrayOf(
         PropTypes.shape({
@@ -74,6 +80,11 @@ export const query = graphql`
     recipe: recipesYaml(fields: { slug: { eq: $slug } }) {
       id
       title
+      image {
+        childImageSharp {
+          gatsbyImageData(height: 400, layout: CONSTRAINED, transformOptions: {fit: CONTAIN})
+        }
+      }
       ingredients {
         name
         items {
@@ -81,20 +92,16 @@ export const query = graphql`
           amt
         }
       }
+      directions
+
       servings
       source
       cook_time
       course
       cuisine
-      directions
       info
       tags
       prep_time
-      image {
-        childImageSharp {
-          gatsbyImageData(height: 400, layout: CONSTRAINED, transformOptions: {fit: CONTAIN})
-        }
-      }
     }
   }
 `;

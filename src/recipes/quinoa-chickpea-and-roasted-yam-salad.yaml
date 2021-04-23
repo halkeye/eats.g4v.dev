@@ -2,7 +2,19 @@ course: Main Dish
 cuisine: Unknown
 title: 'Quinoa, Chickpea and Roasted Yam Salad'
 info: ''
-directions: "1. Preheat oven to 350 F. \_Toss yams in olive oil, salt and pepper and spread evenly on a baking sheet. \_Bake for 20 minutes, or until tender.\n2. Place quinoa and 1 cup cold water in a medium saucepan and bring to a boil. \_Immediately reduce to low heat, cover, and simmer for 15 minutes. \_Tun heat off, remove lid and let cool.\n3. Place chickpeas, grated carrots, red pepper, sunflower seeds, spinach, parsley, feta, and cooled quinoa and yams in a large bowl.\n4. Whisk together all dressing ingredients and pour over salad ingredients. \_Toss gently until well mixed."
+directions:
+  - >-
+    Preheat oven to 350 F.
+  - >-
+    Toss yams in olive oil, salt and pepper and spread evenly on a baking sheet.
+  - >-
+    Bake for 20 minutes, or until tender.\n2. Place quinoa and 1 cup cold water in a medium saucepan and bring to a boil.
+  - >-
+    Immediately reduce to low heat, cover, and simmer for 15 minutes.
+  - >-
+    Tun heat off, remove lid and let cool.\n3. Place chickpeas, grated carrots, red pepper, sunflower seeds, spinach, parsley, feta, and cooled quinoa and yams in a large bowl.\n4. Whisk together all dressing ingredients and pour over salad ingredients. 
+  - >-
+    Toss gently until well mixed.
 source: 'http://wealthofhealth.ca/2012/12/09/quinoa-chickpea-and-roasted-yam-salad/'
 prep_time: 0
 cook_time: 0
