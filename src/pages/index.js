@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import * as React from 'react';
 import {graphql, Link} from 'gatsby';
-import {GatsbyImage} from 'gatsby-plugin-image';
-import PlaceholderFood from '../images/placeholder_food.svg';
+import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 import Layout from '../components/layout';
 
 const IndexPage = ({
@@ -21,7 +20,9 @@ const IndexPage = ({
               <div key={recipe.id} className="col-xs-12 col-sm-6 col-md-3">
                 <div className="card w-100">
                   <div className="card-block">
-                    {recipe.image ? <GatsbyImage className="card-img-top" image={recipe.image.childImageSharp.gatsbyImageData} alt={recipe.title} style={{height: '200px'}} /> : <PlaceholderFood className="card-img-top" style={{height: '200px'}} /> }
+                    <Link to={recipe.fields.slug}>
+                      <GatsbyImage className="card-img-top" image={getImage(recipe.image)} alt={recipe.title} style={{height: '200px'}} />
+                    </Link>
                     <div className="card-body">
                       <h5 className="card-title"><Link to={recipe.fields.slug}>{recipe.title}</Link></h5>
                     </div>

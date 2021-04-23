@@ -1,5 +1,3 @@
-photo_thumbnail: >-
-  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/IMG_7578/1e0e309912c0c8f13b5f50ab4d2b6c34.jpg
 course: Main Dish
 cuisine: American
 title: Maple Syrup Roasted Brussels Sprouts
@@ -35,7 +33,7 @@ ingredients:
         amt: 3 tablespoons
       - item: salt
         amt: 1/2 teaspoon
-      - item: ¼ tsp. ground black pepper
-        amt: 0 null
+      - item: ground black pepper
+        amt: 1/4 tsp
       - item: maple syrup
         amt: 3 tablespoons

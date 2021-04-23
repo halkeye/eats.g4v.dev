@@ -1,5 +1,3 @@
-photo_thumbnail: >-
-  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/IMG_9913_2/55843b021bbabde147f5a28fb22a1927.jpg
 tags:
   - vegan
 course: Breakfast
@@ -40,7 +38,7 @@ ingredients:
       - item: whole wheat noodles
         amt: 1 box
       - item: onion
-        amt: 1 null
+        amt: "1"
       - item: garlic cloves
         amt: 4 large
       - item: coconut milk (must be canned)

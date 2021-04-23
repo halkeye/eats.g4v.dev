@@ -1,10 +1,10 @@
-photo_thumbnail: null
 tags:
   - bbq
   - chicken
 course: Main Dish
 cuisine: American
 title: Barbeque Chicken
+image: ../images/placeholder_food.png
 info: ''
 directions: >-
   In a large glass bowl mix lemon juice, vegetable oil, vinegar oregano, and
@@ -35,4 +35,3 @@ ingredients:
       - item: 'chicken, cut into pieces'
         amt: 1 whole
       - item: salt and pepper to taste
-        amt: 0 null

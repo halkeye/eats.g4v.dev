@@ -1,5 +1,3 @@
-photo_thumbnail: >-
-  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/Pulled-Barbecued-Chicken-Sandwiches-1/1a4b2cafd7c18e7791a645fc03a13705.jpg
 course: Lunch
 cuisine: Slow Cooker
 title: Pulled barbecued chicken sandwiches
@@ -40,8 +38,5 @@ ingredients:
       - item: chicken broth
         amt: 2 tablespoons
       - item: 'additional barbecue sauce, if desired'
-        amt: 0 null
       - item: 'rolls, for serving as sandwiches'
-        amt: 0 null
       - item: 'bread and butter pickles, optional'
-        amt: 0 null

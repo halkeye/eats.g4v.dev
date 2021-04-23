@@ -1,4 +1,3 @@
-photo_thumbnail: null
 course: Dessert
 cuisine: Dessert
 title: Carrot Coconut Cake
@@ -23,6 +22,7 @@ directions: >-
   Remove cake pan from the pot and transfer to a rack until cool. Flip cake onto
   a service platter.
 source: 'https://www.amazn.com/Love-Instant-Pot%C2%AE-Recipe-Book/dp/1507202288'
+image: ../images/placeholder_food.png
 prep_time: 10
 cook_time: 20
 servings: 6
@@ -37,7 +37,6 @@ ingredients:
       - item: ground cinnamon
         amt: 1/2 teaspoon
       - item: Pinch of ground nutmeg
-        amt: 0 null
       - item: vanilla extrat
         amt: 1/2 teaspoon
       - item: 'peeled, grated carrot'

@@ -1,4 +1,3 @@
-photo_thumbnail: null
 course: Main Dish
 cuisine: American
 title: GREEK-STYLE LEMON CHICKEN
@@ -40,4 +39,3 @@ ingredients:
       - item: (60 mL) lemon juice
         amt: 1/4 cup
       - item: Salt and pepper (to taste)
-        amt: 0 null

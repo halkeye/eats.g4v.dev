@@ -1,5 +1,3 @@
-photo_thumbnail: >-
-  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/IMG_20180822_105459/243c0f8712d48e77e6efd29987362d3d.jpg
 course: Breakfast
 cuisine: American
 title: Soy milk french toast
@@ -23,9 +21,8 @@ image: ./soy-milk-french-toast.jpg
 ingredients:
   - items:
       - item: Canola cooking spray
-        amt: 0 null
       - item: eggs
-        amt: 2 null
+        amt: "2"
       - item: >-
           (150 ml) Silk Vanilla soy or almond beverage, or Original coconut
           beverage
@@ -33,7 +30,6 @@ ingredients:
       - item: (1 ml) cinnamon
         amt: 1/4 tsp
       - item: Pinch nutmeg
-        amt: 0 null
       - item: (5 ml) vanilla or almond extract
         amt: 1 tsp
       - item: slices day-old French bread

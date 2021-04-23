@@ -1,9 +1,9 @@
-photo_thumbnail: null
 tags:
   - vegan
 course: Dessert
 cuisine: Dessert
 title: Home made vegan chocolate
+image: ../images/placeholder_food.png
 info: |
   Source: Shawn Ederis
 directions: |-
@@ -29,4 +29,3 @@ ingredients:
       - item: vanilla
         amt: 1 tsp
       - item: pinch of salt
-        amt: 0 null

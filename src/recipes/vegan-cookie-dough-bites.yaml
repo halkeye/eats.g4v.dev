@@ -1,8 +1,8 @@
-photo_thumbnail: null
 tags:
   - vegan
 course: Dessert
 cuisine: Dessert
+image: ../images/placeholder_food.png
 title: Vegan Cookie Dough Bites
 info: ''
 directions: |-
@@ -30,10 +30,8 @@ ingredients:
   - items:
       - item: 'chickpeas, rinsed and drained (approximately 1 can)'
         amt: 3/2 cup
-      - item: sweetener of your choice (I used agave nectar but you could use honey
+      - item: sweetener of your choice (I used agave nectar but you could use honeyor maple syrup)
         amt: 3 tbsp
-      - item: or maple syrup)
-        amt: 0 null
       - item: baking soda
         amt: 1/8 tsp.
       - item: nut butter of your choice
@@ -41,7 +39,6 @@ ingredients:
       - item: vanilla
         amt: 2 tsp
       - item: pinch of salt
-        amt: 0 null
       - item: (10 oz.) non-dairy chocolate chips
         amt: 1 bag
       - item: shortening

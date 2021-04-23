@@ -1,5 +1,3 @@
-photo_thumbnail: >-
-  https://eats.g4v.dev/site-media/CACHE/images/upload/recipe_photos/Instant-Pot-Chickpea-Curry-13/bb63d994ba658eddfcb4a25f943a37e8.jpg
 course: Main Dish
 cuisine: Indian
 title: Instant Pot Chickpea Curry
@@ -49,4 +47,3 @@ ingredients:
       - item: 'spinach, chopped'
         amt: 2 cups
       - item: 'Cilantro, to serve'
-        amt: 0 null
