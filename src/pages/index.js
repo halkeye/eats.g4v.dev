@@ -3,6 +3,7 @@ import * as React from 'react';
 import {graphql, Link} from 'gatsby';
 import {GatsbyImage, getImage} from 'gatsby-plugin-image';
 import Layout from '../components/layout';
+import {Seo} from '@pittica/gatsby-plugin-seo';
 
 const IndexPage = ({
   data: {
@@ -14,6 +15,11 @@ const IndexPage = ({
   return (
     <>
       <Layout>
+        <Seo
+          title="Eats"
+          description="Eats"
+          path="/"
+        />
         <div className="row">
           {recipies.map(({recipe}) => {
             return (

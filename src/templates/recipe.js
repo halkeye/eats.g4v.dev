@@ -1,12 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {graphql} from 'gatsby';
-import {GatsbyImage, getImage} from 'gatsby-plugin-image';
+import {GatsbyImage, getImage, getSrc} from 'gatsby-plugin-image';
+import {Seo} from '@pittica/gatsby-plugin-seo';
 import Layout from '../components/layout';
 
 export default function Recipe({data: {recipe}}) {
   return (
     <Layout>
+      <Seo
+        title={recipe.title}
+        description={recipe.info || recipe.title}
+        path={recipe.fields.slug}
+        image={getSrc(recipe.image)}
+      />
       <div className="card">
         <GatsbyImage
           image={getImage(recipe.image)}
@@ -58,8 +65,12 @@ Recipe.propTypes = {
     recipe: PropTypes.shape({
       id: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
+      info: PropTypes.string,
       directions: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
       image: PropTypes.object,
+      fields: PropTypes.shape({
+        slug: PropTypes.string.isRequired
+      }),
       ingredients: PropTypes.arrayOf(
         PropTypes.shape({
           name: PropTypes.string,
@@ -80,6 +91,9 @@ export const query = graphql`
     recipe: recipesYaml(fields: { slug: { eq: $slug } }) {
       id
       title
+      fields {
+        slug
+      }
       image {
         childImageSharp {
           gatsbyImageData(height: 400, layout: CONSTRAINED, transformOptions: {fit: CONTAIN})

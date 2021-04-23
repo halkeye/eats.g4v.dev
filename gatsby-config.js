@@ -1,10 +1,45 @@
 module.exports = {
   siteMetadata: {
     title: 'Eats',
+    titleTemplate: 'Eats - %s',
     siteUrl: 'https://eats.g4v.dev/',
-    description: 'Recipes collected by Gavin'
+    description: 'Recipes collected by Gavin',
+    image: './src/images/icon.png',
+    twitterUsername: '@halkeye',
+    author: 'Gavin Mogan',
+    locale: {
+      language: 'en',
+      culture: 'CA'
+    },
+    organization: {
+      url: 'https://www.gavinmogan.com',
+      name: 'Gavin Mogan',
+      company: 'Gavin Mogan',
+      logo: ''
+    }
   },
   plugins: [
+    {
+      resolve: '@pittica/gatsby-plugin-seo',
+      options: {
+        image: './src/images/placeholder_food.png',
+        socials: {
+          instagram: {
+            username: 'whyamigavin'
+          },
+          github: {
+            username: '@halkeye'
+          },
+          twitter: {
+            username: '@halkeye',
+            site: '@halkeye'
+          },
+          linkedin: {
+            page: 'halkeye'
+          }
+        }
+      }
+    },
     'gatsby-plugin-react-svg',
     'gatsby-plugin-offline',
     'gatsby-plugin-image',
@@ -22,18 +57,6 @@ module.exports = {
         icon: 'src/images/icon.png'
       }
     },
-    /*
-    {
-      resolve: "gatsby-plugin-mdx",
-      options: {
-        extensions: [`.mdx`],
-        defaultLayouts: {
-          recipes: require.resolve("./src/components/recipes-layout.js"),
-          // default: require.resolve("./src/components/default-page-layout.js"),
-        },
-      },
-    },
-    */
     'gatsby-transformer-yaml',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
