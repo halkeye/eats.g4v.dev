@@ -1,5 +1,6 @@
 const path = require('path');
 const {createFilePath} = require('gatsby-source-filesystem');
+const slugify = require('slugify');
 
 exports.onCreateNode = ({node, getNode, actions}) => {
   const {createNodeField} = actions;
@@ -25,6 +26,12 @@ exports.createPages = async ({graphql, actions}) => {
             }
           }
         }
+        allCuisines: group(field: cuisine) {
+          fieldValue
+        }
+        allCourses: group(field: course) {
+          fieldValue
+        }
       }
     }
   `);
@@ -34,6 +41,24 @@ exports.createPages = async ({graphql, actions}) => {
       component: path.resolve('./src/templates/recipe.js'),
       context: {
         slug: node.fields.slug
+      }
+    });
+  });
+  result.data.allRecipesYaml.allCourses.forEach(({fieldValue}) => {
+    createPage({
+      path: `/course/${slugify(fieldValue)}`,
+      component: path.resolve('./src/templates/course.js'),
+      context: {
+        slug: fieldValue
+      }
+    });
+  });
+  result.data.allRecipesYaml.allCuisines.forEach(({fieldValue}) => {
+    createPage({
+      path: `/cuisine/${slugify(fieldValue)}`,
+      component: path.resolve('./src/templates/cuisine.js'),
+      context: {
+        slug: fieldValue
       }
     });
   });

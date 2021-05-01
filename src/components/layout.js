@@ -10,17 +10,31 @@ const footerStyle = {
 };
 
 const Lister = ({values, urlPrefix}) => {
-  return values.map(c => {
-    return (
-      <li key={c.fieldValue} className="nav-item">
-        <Link className="nav-link" to={`${urlPrefix}${slugify(c.fieldValue)}`}>
-          {c.fieldValue}
-          {' '}
-          <span className="badge badge-pill badge-secondary">{c.totalCount}</span>
-        </Link>
-      </li>
-    );
-  });
+  return (
+    <ul className="nav nav-pills flex-column mb-2">
+      {values.map(c => {
+        return (
+          <li key={c.fieldValue} className="nav-item">
+            <Link className="nav-link" to={`${urlPrefix}${slugify(c.fieldValue)}`} activeClassName="active">
+              {c.fieldValue}
+              {' '}
+              <span className="badge badge-pill badge-secondary">{c.totalCount}</span>
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
+  );
+};
+
+Lister.propTypes = {
+  values: PropTypes.arrayOf(
+    PropTypes.shape({
+      fieldValue: PropTypes.string.isRequired,
+      totalCount: PropTypes.number.isRequired
+    }).isRequired
+  ).isRequired,
+  urlPrefix: PropTypes.string.isRequired
 };
 
 const Layout = ({children, title}) => {
@@ -62,16 +76,12 @@ const Layout = ({children, title}) => {
               <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                 <span>Courses</span>
               </h6>
-              <ul className="nav flex-column mb-2">
-                <Lister values={allCourses} urlPrefix={'/course/'} />
-              </ul>
+              <Lister values={allCourses} urlPrefix={'/course/'} />
 
               <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                 <span>Cuisines</span>
               </h6>
-              <ul className="nav flex-column mb-2">
-                <Lister values={allCuisines} urlPrefix={'/cuisine/'} />
-              </ul>
+              <Lister values={allCuisines} urlPrefix={'/cuisine/'} />
             </div>
           </nav>
 

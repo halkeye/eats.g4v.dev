@@ -5,12 +5,12 @@ import Layout from '../components/layout';
 import Recipies from '../components/recipies';
 import {Seo} from '@pittica/gatsby-plugin-seo';
 
-const IndexPage = ({path, data: {allRecipesYaml: {recipies}}}) => {
+const CuisinePage = ({path, pageContext: {slug}, data: {allRecipesYaml: {recipies}}}) => {
   return (
     <>
       <Layout>
         <Seo
-          title="Eats"
+          title={`Cuisine ${slug}`}
           path={path}
         />
         <div className="row">
@@ -21,11 +21,11 @@ const IndexPage = ({path, data: {allRecipesYaml: {recipies}}}) => {
   );
 };
 
-export default IndexPage;
+export default CuisinePage;
 
 export const pageQuery = graphql`
-  query {
-    allRecipesYaml(sort: { order: ASC, fields: [title] }) {
+  query($slug: String!) {
+    allRecipesYaml(sort: { order: ASC, fields: [title] }, filter: { cuisine: { eq: $slug }}) {
       recipies: edges {
         recipe: node {
           id
