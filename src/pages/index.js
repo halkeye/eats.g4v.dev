@@ -9,10 +9,7 @@ const IndexPage = ({path, data: {allRecipesYaml: {recipies}}}) => {
   return (
     <>
       <Layout>
-        <Seo
-          title="Eats"
-          path={path}
-        />
+        <Seo />
         <div className="row">
           <Recipies recipies={recipies} />
         </div>

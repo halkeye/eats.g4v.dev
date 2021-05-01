@@ -5,14 +5,11 @@ import Layout from '../components/layout';
 import Recipies from '../components/recipies';
 import {Seo} from '@pittica/gatsby-plugin-seo';
 
-const CuisinePage = ({path, pageContext: {slug}, data: {allRecipesYaml: {recipies}}}) => {
+const CuisinePage = ({pageContext: {slug}, data: {allRecipesYaml: {recipies}}}) => {
   return (
     <>
       <Layout>
-        <Seo
-          title={`Cuisine ${slug}`}
-          path={path}
-        />
+        <Seo title={`Cuisine ${slug}`} />
         <div className="row">
           <Recipies recipies={recipies} />
         </div>
