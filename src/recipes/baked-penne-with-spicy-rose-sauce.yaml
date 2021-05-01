@@ -28,14 +28,16 @@ cook_time: 0
 servings: 4
 image: ./baked-penne-with-spicy-rose-sauce.jpg
 ingredients:
-  - items:
+  - name: For the Pasta
+    items:
       - item: penne pasta
         amt: 1 pound
       - item: 'baby spinach, chopped into thin strips'
         amt: 2 cups
       - item: 'bell pepper, diced'
         amt: 1 red
-  - items:
+  - name: For the Sauce
+    items:
       - item: raw cashews
         amt: 4/3 cups
       - item: non-dairy milk
@@ -58,6 +60,7 @@ ingredients:
         amt: 1 small
       - item: pink Himalayan salt
         amt: 1/2 teaspoon
-  - items:
+  - name: For the Topping
+    items:
       - item: gluten-free bread crumbs or panko for non-gluten-free
         amt: 1 cup

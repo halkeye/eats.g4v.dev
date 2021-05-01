@@ -1,9 +1,44 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {graphql} from 'gatsby';
+import {graphql, Link} from 'gatsby';
+import formatDistance from 'date-fns/formatDistance';
 import {GatsbyImage, getImage, getSrc} from 'gatsby-plugin-image';
+import slugify from 'slugify';
 import {Seo} from '@pittica/gatsby-plugin-seo';
 import Layout from '../components/layout';
+
+const isURL = (url) => {
+  try {
+    // eslint-disable-next-line no-new
+    new URL(url);
+    return true;
+  } catch (e) {
+    return false;
+  }
+};
+
+const Ingredients = ({ingredients}) => {
+  return ingredients.map((i, idx) => (
+    <ul key={idx} className="list-unstyled">
+      {i.name && (
+        <li>
+          <strong>
+            <span>{i.name}</span>
+          </strong>
+        </li>
+      )}
+      {i.items.map(c => {
+        return (
+          <li key={c.item}>
+            {c.amt}
+            {' '}
+            {c.item}
+          </li>
+        );
+      })}
+    </ul>
+  ));
+};
 
 export default function Recipe({data: {recipe}}) {
   return (
@@ -22,38 +57,48 @@ export default function Recipe({data: {recipe}}) {
           alt={recipe.title}
         />
         <div className="card-body">
-          <h4 className="card-title">{recipe.title}</h4>
-          <p className="card-text">
-            <h5>Ingredients</h5>
-            {recipe.ingredients.map((i, idx) => {
-              return (
-                <div key={idx}>
-                  <ul className="list-group">
-                    {i.name && (
-                      <li className="list-group-item">
-                        <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-                          <span>{i.name}</span>
-                        </h6>
-                      </li>
-                    )}
-                    {i.items.map(c => {
-                      return (
-                        <li key={c.item} className="list-group-item">
-                          {c.amt}
-                          {' '}
-                          {c.item}
-                        </li>
-                      );
-                    })}
-                  </ul>
+          <h5 className="card-title">{recipe.title}</h5>
+          <h6 className="card-subtitle mb-2 text-muted">{recipe.info}</h6>
+          <div className="card-text">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="float-right panel panel-default">
+                  <table className="table table-bordered">
+                    <thead className="thead-dark">
+                      <tr>
+                        <th>Servings</th>
+                        <th>Prep time</th>
+                        <th>Cooking time</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>{recipe.servings}</td>
+                      <td>{formatDistance(0, recipe.prep_time * 1000 * 60)}</td>
+                      <td>{formatDistance(0, recipe.cook_time * 1000 * 60)}</td>
+                    </tr>
+                    <thead className="thead-dark">
+                      <tr>
+                        <th>Course</th>
+                        <th>Cuisine</th>
+                        <th>Source</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td><Link to={`/course/${slugify(recipe.course)}`}>{recipe.course}</Link></td>
+                      <td><Link to={`/cuisine/${slugify(recipe.cuisine)}`}>{recipe.cuisine}</Link></td>
+                      <td>{isURL(recipe.source) ? (<a href={recipe.source} rel="nofollow">{new URL(recipe.source).host}</a>) : recipe.source}</td>
+                    </tr>
+                  </table>
                 </div>
-              );
-            })}
-            <h5>Directions</h5>
-            <ol>
-              {recipe.directions.map((d, idx) => (<li key={idx}>{d}</li>))}
-            </ol>
-          </p>
+                <h6 className="mb-2 text-muted">Ingredients</h6>
+                <Ingredients ingredients={recipe.ingredients} />
+                <h6 className="mb-2 text-muted">Directions</h6>
+                <ol>
+                  {recipe.directions.map((d, idx) => (<li key={idx}>{d}</li>))}
+                </ol>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
@@ -68,6 +113,12 @@ Recipe.propTypes = {
       info: PropTypes.string,
       directions: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
       image: PropTypes.object,
+      servings: PropTypes.number,
+      cook_time: PropTypes.number,
+      prep_time: PropTypes.number,
+      source: PropTypes.string.isRequired,
+      course: PropTypes.string.isRequired,
+      cuisine: PropTypes.string.isRequired,
       fields: PropTypes.shape({
         slug: PropTypes.string.isRequired
       }),
@@ -107,15 +158,13 @@ export const query = graphql`
         }
       }
       directions
-
       servings
       source
-      cook_time
       course
       cuisine
       info
-      tags
       prep_time
+      cook_time
     }
   }
 `;
