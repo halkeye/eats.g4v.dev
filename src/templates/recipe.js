@@ -73,8 +73,8 @@ export default function Recipe({data: {recipe}}) {
                     </thead>
                     <tr>
                       <td>{recipe.servings}</td>
-                      <td>{formatDistance(0, recipe.prep_time * 1000 * 60)}</td>
-                      <td>{formatDistance(0, recipe.cook_time * 1000 * 60)}</td>
+                      <td>{recipe.prep_time ? formatDistance(0, recipe.prep_time * 1000 * 60) : 'Unknown'}</td>
+                      <td>{recipe.cook_time ? formatDistance(0, recipe.cook_time * 1000 * 60) : 'Unknown'}</td>
                     </tr>
                     <thead className="thead-dark">
                       <tr>
