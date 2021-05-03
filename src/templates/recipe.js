@@ -195,7 +195,7 @@ export const query = graphql`
       }
       image {
         childImageSharp {
-          gatsbyImageData(width: 1200, layout: CONSTRAINED, transformOptions: {fit: COVER, cropFocus: ATTENTION})
+          gatsbyImageData(width: 1200, layout: CONSTRAINED, transformOptions: {cropFocus: ATTENTION})
         }
       }
       ingredients {
