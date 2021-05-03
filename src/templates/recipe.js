@@ -40,6 +40,44 @@ const Ingredients = ({ingredients}) => {
   ));
 };
 
+const cardStyle = {
+  padding: '30px',
+  position: 'relative'
+};
+
+const cardInfoStyle = {
+  zIndex: '10',
+  background: 'white',
+  padding: '20px 15px'
+};
+
+const cardHeadStyle = {
+  height: '300px',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center'
+};
+
+const titleBoxStyle = {
+  position: 'absolute',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  color: '#ccc',
+  background: 'rgba(0,0,0,0.45)',
+  border: '4px solid',
+  fontWeight: 'bold',
+  padding: '5px 10px'
+};
+
+const cardBackgroundWrapper = {
+  height: '100%',
+  // clipPath: 'polygon(0 0, 100% 0, 100% 80%, 0 60%)',
+  position: 'relative',
+  overflow: 'hidden'
+};
+
 export default function Recipe({data: {recipe}}) {
   return (
     <Layout>
@@ -49,19 +87,25 @@ export default function Recipe({data: {recipe}}) {
         path={recipe.fields.slug}
         image={getSrc(recipe.image)}
       />
-      <div className="card">
-        <GatsbyImage
-          image={getImage(recipe.image)}
-          objectFit="contain"
-          className="card-img-top"
-          alt={recipe.title}
-        />
-        <div className="card-body">
-          <h5 className="card-title">{recipe.title}</h5>
-          <h6 className="card-subtitle mb-2 text-muted">{recipe.info}</h6>
-          <div className="card-text">
-            <div className="row">
-              <div className="col-md-12">
+      <div className="container mt-1">
+        <div className="row">
+          <div className="col-12">
+            <article style={cardStyle}>
+              <div style={cardBackgroundWrapper}>
+                <GatsbyImage
+                  image={getImage(recipe.image)}
+                  objectFit="contain"
+                  alt={recipe.title}
+                  style={{position: 'absolute'}}
+                />
+                <div style={cardHeadStyle}>
+                  <span style={titleBoxStyle}>
+                    <div>{recipe.title}</div>
+                    <div className="mb-2 text-muted">{recipe.info}</div>
+                  </span>
+                </div>
+              </div>
+              <div style={cardInfoStyle}>
                 <div className="float-right panel panel-default">
                   <table className="table table-bordered">
                     <thead className="thead-dark">
@@ -71,11 +115,13 @@ export default function Recipe({data: {recipe}}) {
                         <th>Cooking time</th>
                       </tr>
                     </thead>
-                    <tr>
-                      <td>{recipe.servings}</td>
-                      <td>{recipe.prep_time ? formatDistance(0, recipe.prep_time * 1000 * 60) : 'Unknown'}</td>
-                      <td>{recipe.cook_time ? formatDistance(0, recipe.cook_time * 1000 * 60) : 'Unknown'}</td>
-                    </tr>
+                    <tbody>
+                      <tr>
+                        <td>{recipe.servings}</td>
+                        <td>{recipe.prep_time ? formatDistance(0, recipe.prep_time * 1000 * 60) : 'Unknown'}</td>
+                        <td>{recipe.cook_time ? formatDistance(0, recipe.cook_time * 1000 * 60) : 'Unknown'}</td>
+                      </tr>
+                    </tbody>
                     <thead className="thead-dark">
                       <tr>
                         <th>Course</th>
@@ -83,11 +129,13 @@ export default function Recipe({data: {recipe}}) {
                         <th>Source</th>
                       </tr>
                     </thead>
-                    <tr>
-                      <td><Link to={`/course/${slugify(recipe.course)}`}>{recipe.course}</Link></td>
-                      <td><Link to={`/cuisine/${slugify(recipe.cuisine)}`}>{recipe.cuisine}</Link></td>
-                      <td>{isURL(recipe.source) ? (<a href={recipe.source} rel="nofollow">{new URL(recipe.source).host}</a>) : recipe.source}</td>
-                    </tr>
+                    <tbody>
+                      <tr>
+                        <td><Link to={`/course/${slugify(recipe.course)}`}>{recipe.course}</Link></td>
+                        <td><Link to={`/cuisine/${slugify(recipe.cuisine)}`}>{recipe.cuisine}</Link></td>
+                        <td>{isURL(recipe.source) ? (<a href={recipe.source} rel="nofollow">{new URL(recipe.source).host}</a>) : recipe.source}</td>
+                      </tr>
+                    </tbody>
                   </table>
                 </div>
                 <h6 className="mb-2 text-muted">Ingredients</h6>
@@ -97,7 +145,7 @@ export default function Recipe({data: {recipe}}) {
                   {recipe.directions.map((d, idx) => (<li key={idx}>{d}</li>))}
                 </ol>
               </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>
@@ -147,7 +195,7 @@ export const query = graphql`
       }
       image {
         childImageSharp {
-          gatsbyImageData(height: 400, layout: CONSTRAINED, transformOptions: {fit: CONTAIN})
+          gatsbyImageData(width: 1200, layout: CONSTRAINED, transformOptions: {fit: COVER, cropFocus: ATTENTION})
         }
       }
       ingredients {
