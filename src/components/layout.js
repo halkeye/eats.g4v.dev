@@ -71,7 +71,7 @@ const Layout = ({children, title}) => {
       </nav>
       <div className="container-fluid">
         <div className="row">
-          <nav className="col-md-1 d-none d-md-block bg-light sidebar d-print-none">
+          <nav className="col-md-2 d-none d-md-block bg-light sidebar d-print-none">
             <div className="sidebar-sticky">
               <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                 <span>Courses</span>
@@ -85,7 +85,7 @@ const Layout = ({children, title}) => {
             </div>
           </nav>
 
-          <main role="main" className="col-md-10 ml-sm-auto col-lg-11 pt-3 px-4">
+          <main role="main" className="col-md-9 ml-sm-auto pt-3 px-4">
             {children}
           </main>
         </div>
