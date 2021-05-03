@@ -1,0 +1,51 @@
+tags:
+  - Slow Cooker
+course: Main Dish
+cuisine: American
+title: Shredded Barbecued Chicken
+image: ../images/placeholder_food.png
+info: ''
+directions:
+  - >-
+    Mix chili powder, paprika, cayenne, 1/2 teaspoon salt and 1/4 teaspoon pepper together, then rub mixture evenly over chicken; transfer to slow cooker. Pour 1/2 cup barbecue sauce over chicken and toss to coat. Cover and cook until chicken is tender, 4 to 6 hours on low
+  - >-
+    Transfer chicken to large bowl, let cool slightly, then shred into bite-size peices (see page 21); cover to keep warm. Let braising liquid settle for 5 minutes, then remove fat from surface using large spoon.
+  - >-
+    Microwave remaining cup barbecue sauce in bowl until hot, about 3 minutes. Toss shredded chicken with hot barbecue sauce and 1 cup braising liquid; add more liquid as needed to keep meat moist. Serve.
+source: 'FIXME - slowcookerbook'
+prep_time: 0
+cook_time: 360
+servings: 1
+ingredients:
+  - name: Chicken
+    items:
+      - item: chili powder
+        amt: 2 teaspoons
+      - item: sweet paprika
+        amt: 1 teaspoon
+      - item: cayenne pepper
+        amt: 1/4 teaspoon
+      - item: boneless skinless chicken thighs, trimmed
+        amt: 1 1/2 pounds
+      - item: boneless skinless chicken breasts, trimmed
+        amt: 1 1/2 pounds
+      - item: barbecue sauce
+        amt: 1 1/2 cups
+  - name: No-cook pantry barbecue sauce
+    items:
+      - item: ketchup
+        amt: 2 1/4 cups
+      - item: molasses
+        amt: 3/4 cup
+      - item: cider vinegar
+        amt: 3 tablespoons
+      - item: hot sauce
+        amt: 2 teaspoons
+      - item: liquid smoke
+        amt: 3/4 teaspoon
+      - item: salt and pepper
+      - item: seeded and minced jalapeno chiles (optional)
+        amt: "2"
+      - item:  minced canned chipotle chile in adobo sauce (optional)
+        amt: 3 tablespoons
+
