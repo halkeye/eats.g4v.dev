@@ -1,0 +1,42 @@
+course: Dessert
+cuisine: Dessert
+title: Banana Bread
+info:
+image: ../images/placeholder_food.png
+directions:
+  - >-
+    Preheat the oven to 350F(175C).
+  - >-
+    With a wooden spoon, mix butter into the mashed bananas in a large mixing bown
+  - >-
+    Mix in the sugar, egg and vanila
+  - >-
+    Sprinkle the baking soad and salt over the mixutre and mix in.
+  - >-
+    Add the flour last, mixPour mixture into a buttered 4x8 inch loaf pan
+  - >-
+    Bake for 1 hour
+  - >-
+    cool on rack
+source: https://www.simplyrecipes.com/recipes/banana_bread/
+prep_time: 0
+cook_time: 660
+servings: 10
+ingredients:
+  - items:
+      - item: ripe bananas, smashed
+        amt: 3
+      - item: melted butter
+        amt: 1/3 cup
+      - item: sugar
+        amt: 3/4 cup
+      - item: egg beaten
+        amt: 1
+      - item: vanilla
+        amt: 1 teaspoon
+      - item: baking soda
+        amt: 1 teaspoon
+      - item: salt
+        amt: pinch
+      - item: all-purpose flour
+        amt: 1 1/2 cup
