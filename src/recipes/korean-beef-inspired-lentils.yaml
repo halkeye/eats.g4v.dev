@@ -1,0 +1,32 @@
+course: Main Dish
+cuisine: Asian
+title: Korean beef inspired lentils
+info: ''
+image: ../images/placeholder_food.png
+source: 'https://www.reddit.com/r/MealPrepSunday/comments/wh2az3/comment/ij32l9u/?utm_source=reddit&utm_medium=web2x&context=3'
+prep_time: 0
+cook_time: 0
+servings: 0
+ingredients:
+  - items:
+      - item: green lentils
+        amt: 1.5 cup
+      - item: water
+        amt: 3 cup
+      - item: reduced sodium soy sauce
+        amt: 0.25 cup
+      - item: reduced sodium soy sauce
+        amt: 2 tbsp
+      - item: brown swerve
+        amt: 0.25 cup
+      - item: minced ginger
+        amt: 1.25 tsp
+      - item: red pepper flakes
+        amt: 0.5 tsp
+      - item: sesame oil
+        amt: 1.5 tbsp
+directions:
+  - >-
+    Put the sesame oil in an instapot and cook on the beans setting for 20 mins.
+  - >-
+    After that mix in the sesame oil.
